@@ -3,6 +3,7 @@ import { NavLink } from "react-router";
 function Navbar() {
     return (
         <nav className="flex items-center justify-between border-b px-10 py-5">
+            <h1 className="text-2xl font-bold">Logo</h1>
             <div className="flex gap-6">
                 <NavLink
                     to="/"
@@ -32,6 +33,7 @@ function Navbar() {
                     FAQ
                 </NavLink>
             </div>
+            <button className="bg-black text-white px-2 py-1 rounded-[5px]">Sign In</button>
         </nav>
     );
 }
